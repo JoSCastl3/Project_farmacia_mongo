@@ -1,0 +1,10 @@
+use farmaciamongo
+
+<?php 
+foreach($datos as $item){
+?>
+
+<?php 
+echo $item->paterno;  paterno-Nombre de la variable
+}
+?>

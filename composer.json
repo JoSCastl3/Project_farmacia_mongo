@@ -1,0 +1,21 @@
+{
+    "name": "tecs-emrg/project_prueba",
+    "description": "Proyecto de prueba",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "josecastillo",
+            "email": "josecastillo2@catolica.edu.sv"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "mongodb/mongodb": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "myproject\\":"scr/"
+        }
+    }
+}
